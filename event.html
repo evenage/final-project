@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EventPlanner</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Lobster&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <link href="https://github.com/evenage/final-project/leaflet-openweathermap">
+  <script src="./js/script.js" type="module"></script>
+
+</head>
+
+<body>
+  <!-- Header Section -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">
+        <h1><a href="#"><span>c</span>harue</a></h1>
+      </div>
+      <div class="menu">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="prices.html">Prices</a></li>
+          <li><a href="service.html">Service</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="about-us.html">About us</a></li>
+          <li><a href="event.html"> Book event</a></li>
+        </ul>
+      </div>
+      <div class="hamburger" id="hamburger" onclick="toggleMenu()">
+        &#9776;
+      </div>
+    </nav>
+  </header>
+
+
+  <h1>Event Planner</h1>
+  <div class="eventList">
+  </div>
+  <p>Create Event</p>
+
+  <body>
+    <h1>Event Planning Form</h1>
+    <form id="eventform">
+      <label for="event-type">Event Type:</label>
+      <select id="event-type" name="event-type">
+        <option value="Party">Party</option>
+        <option value="Birthday">Birthday</option>
+        <option value="Wedding">Wedding</option>
+        <option value="Funeral">Funeral</option>
+        <option value="Others">Others (please specify)</option>
+      </select>
+      <br><br>
+      <label for="event-date">Event Date:</label>
+      <input type="date" id="event-date" name="event-date">
+      <br><br>
+      <label for="event-time">Event Time:</label>
+      <input type="time" id="event-time" name="event-time">
+      <br><br>
+      <label for="event-location">Event Location:</label>
+      <input type="text" id="event-location" name="event-location">
+      <br><br>
+      <label for="number-of-guests">Number of Guests:</label>
+      <input type="number" id="number-of-guests" name="number-of-guests">
+      <br><br>
+      <label for="special-requests">Special Requests:</label>
+      <textarea id="special-requests" name="special-requests"></textarea>
+      <br><br>
+      <a href="#" button id="plan-event-button">Plan Event</button>
+    </form>
+    <div id="event-planning-confirmation"></div>
+    <script src="scripts/event.json"></script>
+    <script src="scripts/script.js"></script>
+    <footer>
+      <section class="footer">
+        <p>&2025 Event Planning || Evenage Thelma Gorwa || WDD 330 Final Project</p>
+        <section id="lastmodified"></section>
+      </section>
+    </footer>
+  </body>
+  <script> // Add an event listener to the plan event button
+    planEventButton.addEventListener('click', (e) => {
+      e.preventDefault();
+    })</script>
+
+
+
+</html>

@@ -1,0 +1,51 @@
+{
+"events":  [
+    {
+      "eventName": "Birthday Party",
+      "date": "2025-03-13",
+      "time": "16:00",
+      "location": "Kilsriver ,Capetown",
+      "description": "A  Birthday party.",
+      "image": "https://2.bp.blogspot.com/-brNlt-Q0c1U/UqXd1aBVpTI/AAAAAAAACbI/bSLEyhp4jG8/s1600/happy-birthday-widescreen-www.wallbest.com_.jpg",
+      "performers": "Band people and family"
+    },
+    {
+      "eventName": "Wedding",
+      "date": "2025-04-04",
+      "time": "10:00:00",
+      "location": "Eden Park",
+      "description": "A beauiful union of two beautiful poeple.",
+      "image": "https://th.bing.com/th/id/OIP.yM2-NYJsl5hHoLo9SsJROwHaE7?rs=1&pid=ImgDetMain",
+      "performers": "Jar Prayzer, Winky D and Nasty C"
+      
+    },
+{
+  "eventName": "Party",
+      "date": "2025-06-15",
+      "time": "12:00:00",
+      "location": "Green Point",
+      "description": "A livers party for matric student with multiple performers.",
+      "image": "https://media.timeout.com/images/105347841/image.jpg",
+      "performers": "Kanye West and Naty O"
+  
+    },
+  {
+    "eventName": "Memorial Service",
+    "date": "2025-08-19",
+    "time": "10:00:00",
+    "location": "Belvil ,Capetown",
+    "description": "A  memorial service .",
+    "image": "https://th.bing.com/th/id/OIP.dZq50M58DotkKyRq5tXWEAHaE8?w=274&h=183&c=7&r=0&o=5&pid=1.7",
+    "performers": "church people and family"
+
+  }
+
+    ]
+}
+
+
+
+
+
+  
+  
